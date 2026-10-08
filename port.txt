@@ -1,0 +1,1 @@
+LISTEN 0      50                 *:8082             *:*    users:(("java",pid=164667,fd=5))                                                     

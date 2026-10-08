@@ -1,0 +1,12 @@
+● spring-app.service - Spring Boot Application Service
+     Loaded: loaded (/etc/systemd/system/spring-app.service; enabled; vendor preset: enabled)
+     Active: active (running) since Fri 2026-10-09 02:44:32 +07; 58s ago
+   Main PID: 164667 (java)
+      Tasks: 21 (limit: 2237)
+     Memory: 20.2M
+        CPU: 228ms
+     CGroup: /system.slice/spring-app.service
+             └─164667 /usr/bin/java -jar /opt/spring-app/app.jar
+
+Oct 09 02:44:32 azvps-tm9798vf9 systemd[1]: Started Spring Boot Application Service.
+Oct 09 02:44:32 azvps-tm9798vf9 java[164667]: App started on port 8082
